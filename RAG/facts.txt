@@ -1,0 +1,32 @@
+Python is a high-level programming language known for its simplicity and readability.
+It was created by Guido van Rossum and first released in 1991.
+Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+
+Machine learning is a subset of artificial intelligence that uses algorithms to learn patterns from data.
+Popular machine learning libraries in Python include scikit-learn, TensorFlow, and PyTorch.
+Machine learning models can be trained to make predictions on new, unseen data.
+
+Ollama is a tool for running large language models locally on your machine.
+It provides an easy way to download, install, and run various open-source language models.
+Ollama supports models like Llama, Mistral, Gemma, and many others.
+With Ollama, you can run AI models without needing internet connectivity.
+
+Vector databases store embeddings and enable semantic search capabilities.
+Embeddings are numerical representations of text that capture semantic meaning.
+Vector similarity search finds documents with similar semantic content using mathematical operations.
+Popular vector databases include Chroma, Pinecone, Weaviate, and FAISS.
+
+RAG combines retrieval of relevant documents with language model generation.
+RAG systems first retrieve relevant context from a knowledge base.
+Then they use this context to generate more accurate and informed responses.
+RAG helps reduce hallucinations and provides more factual answers.
+
+LlamaIndex is a framework for building LLM applications with your own data.
+It provides tools for data ingestion, indexing, and querying.
+LlamaIndex supports various vector stores and embedding models.
+It can work with local models through Ollama integration.
+
+DuckDB is an in-process SQL OLAP database management system.
+It can be used as a vector store for storing and querying embeddings.
+DuckDB is lightweight and doesn't require a separate server process.
+It provides excellent performance for analytical workloads.

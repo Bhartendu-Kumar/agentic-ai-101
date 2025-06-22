@@ -1,0 +1,14 @@
+{
+    "model": "llama3",
+    "messages": [
+      { "role": "system",    "content": "..." },
+      { "role": "user",      "content": "..." },
+      { "role": "assistant", "content": "..." }
+    ],
+    "stream": true,          // optional – defaults to true
+    "format": "json",        // return structured JSON instead of plain text
+    "options": {             // standard Modelfile knobs, e.g. temperature
+        "temperature": 0.2
+    },
+    "keep_alive": "5m"       // keep the model in GPU/CPU RAM between calls
+  }
