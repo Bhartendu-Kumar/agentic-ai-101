@@ -1,0 +1,16 @@
+messages = 
+
+[
+{role: "system", content:SYSTEM_PROMPT(ARCHITECT) }
+,
+{role: "user", content: "I want to ..."}
+,
+{role: "assistant", content: "...."}
+,
+{role: "user", content: "return value of list_files tool call "coding_assistants" directory.}
+,
+{role: "assistant", content: "...."},
+{role: "user", content: "return value of list_files tool call. on "src" directory."}
+
+
+]

@@ -19,9 +19,8 @@ def invoke_chute():
 			},
 			{
 				"role": "user",
-				"content": ""
-			},
-			
+				"content": "What is the weather in Tokyo?"
+			},	
 			
 		],
 		"stream": False,
@@ -34,12 +33,13 @@ def invoke_chute():
 		headers=headers,
 		json=body
 	)
-	response.raise_for_status()  # Still good to keep for basic HTTP error checking
+	print(response.json())
+	# response.raise_for_status()  # Still good to keep for basic HTTP error checking
 	
-	response_data = response.json()
+	# response_data = response.json()
 	
-	# Print the relevant part of the response
-	# This assumes the API call is successful and the response structure is as expected.
-	print(response_data["choices"][0]["message"]["content"])
+	# # # Print the relevant part of the response
+	# # # This assumes the API call is successful and the response structure is as expected.
+	# print(response_data["choices"][0]["message"]["content"])
 
 invoke_chute()

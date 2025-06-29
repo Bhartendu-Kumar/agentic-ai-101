@@ -1,0 +1,10 @@
+# Roo ignore file
+# This file tells Roo code which directories and files to ignore
+
+# Exclude the delete directory
+delete/
+
+# Common directories to ignore (optional)
+node_modules/
+.git/
+.DS_Store 
